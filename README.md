@@ -36,10 +36,25 @@ This tool is a **High-Frequency Real-Time Forex Signal Engine** designed specifi
 আপনি যদি একদম নতুন টার্মাক্স অ্যাপে ২ মিনিটের মধ্যে বোটটি চালু করতে চান, তবে নিচের পুরো কমান্ডটি একবারে কপি করে টার্মাক্সে পেস্ট করে **`Enter`** চাপুন:
 
 ```bash
+​1️⃣ টার্মাক্স আপডেট করুন:
+pkg update && pkg upgrade -y
+2️⃣ পাইথন ও গিট ইনস্টল করুন
+pkg install python git -y
+3️⃣ প্রয়োজনীয় প্যাকেজ ইনস্টল করুন:
+pip install numpy colorama
+4️⃣ গিটহাব থেকে প্রজেক্ট ক্লোন করুন
+git clone [https://github.com/EMONXPLOIT/sentinel-trading-bot.git](https://github.com/EMONXPLOIT/sentinel-trading-bot.git)
+5️⃣ ফোল্ডারে গিয়ে বোট রান করুন:
+cd sentinel-trading-bot
+python main.py
+```bash
 pkg update && pkg upgrade -y 
 && pkg install python git -y
 && pip install numpy colorama 
 && git clone https://github.com/EMONXPLOIT/sentinel-trading-bot.git https://github.com/EMONXPLOIT/sentinel-trading-bot.git 
 && cd sentinel-trading-bot 
 && python main.py
+
+
+
 
