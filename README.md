@@ -37,3 +37,4 @@ This tool is a **High-Frequency Real-Time Forex Signal Engine** designed specifi
 
 ```bash
 pkg update && pkg upgrade -y && pkg install python git -y && pip install numpy colorama && git clone [https://github.com/EMONXPLOIT/sentinel-trading-bot.git](https://github.com/EMONXPLOIT/sentinel-trading-bot.git) && cd sentinel-trading-bot && python main.py
+
